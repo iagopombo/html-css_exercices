@@ -1,0 +1,21 @@
+.container{
+    display: flex;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    background-color: red;
+}
+.start{
+    justify-content: flex-start; 
+}
+.end{
+    justify-content: end;
+}
+.space-around{
+    justify-content: space-around;
+}
+.reverse{
+    flex-direction: row-reverse;
+}

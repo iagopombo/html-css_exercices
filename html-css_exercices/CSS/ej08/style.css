@@ -1,0 +1,11 @@
+.container{
+    width: 300px;
+    height: 300px;
+    display: flex;
+}
+.backimage{
+    width: 350px;
+    height: 350px;
+    background-image: url(escudo_deportivo.png);
+    background-size: center;
+}

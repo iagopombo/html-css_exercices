@@ -1,0 +1,48 @@
+.square {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.rectangle {
+    border: 2px solid black;
+}
+
+.rounded {
+    border-radius: 50%;
+}
+
+#divs1 {
+    background-color: lightblue;
+}
+#divs2 {
+    background-color: lightgreen;
+}
+#divs3 {
+    background-color: lightcoral;
+}
+#divs4 {
+    background-color: lightsalmon;
+}
+#divs5 {
+    background-color: lightgray;
+}
+
+.container {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    display: block;
+    justify-content: center;
+}
+table {
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid rgb(0, 0, 0);
+    padding: 8px;
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
