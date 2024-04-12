@@ -1,2 +1,6 @@
-let div_id = SVGLinearGradientElement
-getEle
+let changecontentButton = document.getElementById("changecontent");
+
+changecontentButton.addEventListener('click', function(){
+    let divCont = document.getElementById('contenido');
+    divCont.textContent = 'Hola Mundo';
+});
